@@ -50,7 +50,7 @@ The dataset includes the following columns:
 ![Correlation Heatmap](images/heatmapt.png)
 
 ### 💻 Operating System Distribution
-![OS Distribution](images/countp;ot5.png)
+![OS Distribution](images/countplot5.png)
 
 - **Windows 10** dominates the market share among Operating Systems.
 - **SSD-equipped** laptops and **i7 CPUs** strongly increase laptop prices.
