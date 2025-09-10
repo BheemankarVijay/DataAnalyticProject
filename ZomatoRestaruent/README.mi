@@ -1,0 +1,91 @@
+📌 Project Overview
+
+This project explores the Zomato Restaurant dataset using Python, Pandas, Matplotlib, and Seaborn.
+The main objective is to perform Exploratory Data Analysis (EDA) to understand restaurant trends, customer behavior, pricing, and ratings.
+
+📂 Dataset Information
+
+The dataset contains the following columns:
+
+name → Restaurant name
+
+online_order → Whether online ordering is available (Yes/No)
+
+book_table → Whether table booking is available (Yes/No)
+
+rate → Customer rating (needs cleaning, e.g. "4.1/5" → 4.1)
+
+votes → Number of customer votes
+
+approx_cost(for two people) → Approximate cost for two people (needs cleaning to numeric)
+
+listed_in(type) → Category of restaurant (e.g., Delivery, Buffet, Drinks & Nightlife)
+
+🔧 Data Cleaning
+
+Removed/handled missing values in rate and approx_cost.
+
+Cleaned rate column (removed “NEW”, “-”, etc.).
+
+Converted approx_cost(for two people) into numeric format.
+
+Renamed columns for easier coding.
+
+Checked and removed duplicates.
+
+📊 EDA & Visualizations
+
+Univariate Analysis
+
+Distribution of restaurant types (listed_in(type))
+
+Count of restaurants offering online ordering and table booking
+
+Distribution of ratings and votes
+
+Bivariate Analysis
+
+Impact of online ordering on ratings
+
+Relationship between votes and ratings
+
+Average cost vs rating
+
+Table booking availability vs rating
+
+Feature Engineering
+
+Created price_category (Low / Medium / High) based on approx_cost
+
+Visualizations Used
+
+Countplot, Barplot, Boxplot, Violinplot
+
+Histogram, Scatterplot, Pie chart
+
+📌 Insights
+
+Restaurants offering online orders and table booking generally receive higher ratings.
+
+Premium restaurants (High cost) tend to have better ratings, but not always higher votes.
+
+Delivery-based restaurants dominate the dataset compared to fine dining/nightlife.
+
+Customer votes are positively correlated with ratings but show outliers.
+
+🚀 Tech Stack
+
+Python 🐍
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Seaborn
+
+✅ Conclusion
+
+This project gave hands-on experience in data cleaning, preprocessing, visualization, and extracting insights from a real-world restaurant dataset.
+The analysis helps understand customer preferences and market patterns in the restaurant industry.
