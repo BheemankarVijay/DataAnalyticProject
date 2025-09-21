@@ -1,6 +1,6 @@
 # 🏏 IPL Exploratory Data Analysis (2008–2025)
 
-![IPL Banner](Images/ipl.png) 
+![IPL Banner](Images/Ipl.png) 
 
 ---
 
