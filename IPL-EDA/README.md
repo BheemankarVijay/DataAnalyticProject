@@ -110,7 +110,7 @@ The dataset includes:
 - Wins by **runs** usually have **higher margins** than wins by **wickets**.  
 
 📌 Example Plot:  
-![Win Margin Distribution](images/MatchWinnervsWinMargin.png)
+![Win Margin Distribution](Images/MatchWinnervsWinMargin.png)
 
 ---
 
@@ -122,7 +122,7 @@ The dataset includes:
   - **Win Margin vs Second Innings Score (-0.32)**  
 
 📌 Example Plot:  
-![Heatmap](images/heatmap.png)
+![Heatmap](Images/heatmap.png)
 
 ---
 
