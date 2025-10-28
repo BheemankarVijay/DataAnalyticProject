@@ -1,5 +1,14 @@
 # 💻 Laptop Price EDA Project
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Jupyter](https://img.shields.io/badge/Notebook-Google%20Colab-orange)
+![Libraries](https://img.shields.io/badge/Libraries-Pandas%2C%20NumPy%2C%20Seaborn%2C%20Matplotlib-brightgreen)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-blueviolet)
+![Made with ❤️](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
+
+
 
 ![Dashboard Preview](images/laptop_price_dashboard.png)
 
@@ -91,7 +100,7 @@ This EDA revealed how laptop specifications — especially **RAM**, **SSD presen
 ---
 **👨‍💻 Created by:** Bheemankar Vijay  
 🎓 AIML Student | Data Analytics Enthusiast  
-📧 Contact: [bheemankarvijay.com]  
+📧 Contact: [bheemankarvijay@gmail.com]  
 📍 Tools: Python | Power BI | Google Colab | GitHub  
 
 
