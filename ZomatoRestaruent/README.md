@@ -9,8 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="Dashboard.png" alt="Zomato Dashboard" width="800">
+  <img src="Images/Dashboard.png" alt="Zomato Dashboard" width="800">
 </p>
+
 
 <p align="center">
   <b>Exploratory Data Analysis (EDA) of Zomato Restaurant Data using Python, Pandas, Matplotlib, and Seaborn</b><br>
