@@ -1,9 +1,12 @@
 # 💻 Laptop Price EDA Project
 
 
-![EDA Preview](images/heatmapt.png)
+![Dashboard Preview](images/laptop_price_dashboard.png)
 
-This project performs an **Exploratory Data Analysis (EDA)** on a dataset containing various specifications of laptops and their prices. The aim is to uncover patterns, relationships, and key insights that influence laptop pricing.
+
+This project analyzes laptop pricing trends using Python (Pandas, Seaborn, Matplotlib).  
+It explores how different specifications — such as RAM, brand, screen size, and storage — affect laptop prices.  
+The findings are visualized through a Power BI dashboard and detailed EDA notebook.
 
 ---
 
@@ -65,6 +68,7 @@ The dataset includes the following columns:
 
 - [x] Python
 - [x] Google Colab
+- [x] Power BI
 - [x] Pandas
 - [x] NumPy
 - [x] Seaborn
@@ -85,4 +89,9 @@ The dataset includes the following columns:
 This EDA revealed how laptop specifications — especially **RAM**, **SSD presence**, **brand**, and **CPU type** — significantly impact pricing. It also demonstrated how screen size, weight, and operating systems play roles in user preferences and pricing tiers.
 
 ---
+**👨‍💻 Created by:** Bheemankar Vijay  
+🎓 AIML Student | Data Analytics Enthusiast  
+📧 Contact: [bheemankarvijay.com]  
+📍 Tools: Python | Power BI | Google Colab | GitHub  
+
 
