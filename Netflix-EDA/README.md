@@ -1,102 +1,123 @@
-🎬 Netflix EDA Project
+# 🎬 Netflix EDA Project
 
-This project performs an Exploratory Data Analysis (EDA) on the Netflix Titles dataset.
-The goal is to analyze Netflix’s content library, uncover trends in genres, countries, release years, and explore key patterns in movies and TV shows.
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-orange?logo=seaborn)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Charts-red?logo=plotly)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-brightgreen?logo=powerbi)
+![Tableau](https://img.shields.io/badge/Tableau-Visualization-blueviolet?logo=tableau)
+![EDA](https://img.shields.io/badge/Project-Type%3A%20EDA-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-📂 Project Structure
-📌 Sections Covered
+---
 
-1. Introduction
+This project performs an **Exploratory Data Analysis (EDA)** on the **Netflix Titles dataset**.  
+The goal is to analyze Netflix’s content library, uncover trends in genres, countries, release years, and explore key patterns in **Movies** and **TV Shows**.
 
-2. Data Importing
+---
 
-3. Data Cleaning & Preprocessing
+## 📂 Project Structure
 
-4. Univariate Analysis
+**Sections Covered:**
+1. 📖 Introduction  
+2. 📥 Data Importing  
+3. 🧹 Data Cleaning & Preprocessing  
+4. 🔍 Univariate Analysis  
+5. 🔗 Bivariate Analysis  
+6. 🗓️ Date & String Feature Handling  
+7. 🌡️ Correlation Heatmap  
+8. 💡 Key Insights & Summary  
+9. 🧾 Conclusion  
 
-5. Bivariate Analysis
 
-6. Date & String Feature Handling
 
-7. Correlation Heatmap
+---
 
-8. Key Insights & Summary
-
-9. Conclusion
-
-(Optional) Save cleaned data or plots
-
-📊 Dataset Description
+## 📊 Dataset Description
 
 The dataset includes the following columns:
 
-show_id
+| Column | Description |
+|--------|-------------|
+| `show_id` | Unique ID for each title |
+| `type` | Movie or TV Show |
+| `title` | Name of the title |
+| `director` | Director of the title |
+| `cast` | Main actors |
+| `country` | Country of production |
+| `date_added` | Date added to Netflix |
+| `release_year` | Year of release |
+| `rating` | Content rating (e.g., TV-MA, PG-13) |
+| `duration` | Duration (minutes or seasons) |
+| `listed_in` | Genre/category |
+| `description` | Short summary of the title |
 
-type (Movie/TV Show)
+---
 
-title
+## 🔍 Key Insights
 
-director
+### 🔥 Content Distribution
+- **Movies dominate** Netflix’s library compared to TV Shows.
 
-cast
+### 🌍 Country-wise Content
+- **United States** leads in producing Netflix content, followed by **India** and the **United Kingdom**.
 
-country
+### 📅 Content Over Time
+- Netflix saw a **huge spike** in new content after **2015**.
 
-date_added
+### 📊 Ratings Distribution
+- **TV-MA** is the most common maturity rating, showing a focus on **adult content**.
 
-release_year
+---
 
-rating
+## 📈 Dashboard Preview
 
-duration
+📍 Power BI Dashboard:  
+The final interactive visualization dashboard summarizes the EDA insights.  
+> 🖼️ You can view it here:  
+> `Netflix-EDA/images/Dashboard.png`
 
-listed_in (Genre)
+![Netflix Dashboard](Netflix-EDA/images/Dashboard.png)
 
-description
+---
 
-🔍 Key Insights
-🔥 Content Distribution
+## 🛠 Tools & Technologies Used
 
-Movies dominate Netflix’s library compared to TV Shows.
+- 🐍 **Python**
+- 📓 **Jupyter Notebook / Google Colab**
+- 📊 **Pandas**, **NumPy**
+- 🎨 **Seaborn**, **Matplotlib**
+- 🧩 **Power BI**
+- 📈 **Tableau**
 
-🌍 Country-wise Content
+---
 
-The United States leads in producing Netflix content, followed by India and the UK.
+## 🚀 How to Run
 
-📅 Content Over Time
+1. Open the `.ipynb` file using **Google Colab** or **Jupyter Notebook**  
+2. Run all cells **step-by-step** to follow the complete EDA process  
+3. All visualizations are displayed **inline** with insights in each section  
 
-Netflix saw a huge spike in new content after 2015.
+---
 
-📊 Ratings Distribution
+## ✅ Final Thoughts
 
-TV-MA is the most common maturity rating, showing a focus on adult content.
+This EDA revealed:
+- **Movies dominate** Netflix’s catalog  
+- **USA** and **India** are the top contributors  
+- Content **grew rapidly after 2015**  
+- Genres like *International Movies*, *Dramas*, and *Comedies* are most popular  
+- **TV-MA** rating dominates, reflecting mature audience preferences  
 
-🛠 Tools Used
+⚡ **Learning Outcome:**  
+I learned how to clean data, handle object types, and visualize categorical & numerical features using **Seaborn** and **Matplotlib**, and also built an **interactive dashboard** using Power BI.
 
- Python
+---
 
- Jupyter Notebook / Google Colab
+📸 *Dashboard and visualization images are available in the folder:*  
+`Netflix-EDA/images/`
 
- Pandas
+---
 
- NumPy
-
- Seaborn
-
- Matplotlib
-
-🚀 How to Run
-
-Open the .ipynb file using Google Colab or Jupyter Notebook.
-
-Run cells step by step to follow the EDA process.
-
-All plots are generated inline and insights are written within the notebook.
-
-✅ Final Thoughts
-
-This EDA revealed how Movies dominate Netflix’s catalog, with strong contributions from the USA and India.
-Content has been growing rapidly since 2015, with a focus on genres like International Movies, Dramas, and Comedies.
-Most shows are rated TV-MA, highlighting Netflix’s focus on mature audiences.
-
-⚡ This was my  EDA project where I learned data cleaning, handling object types, and visualizing categorical/numeric features using Seaborn.
+✨ *Author: [Bheemankar Vijay](https://github.com/BheemankarVijay)*  
+📅 *Project Type: Data Analytics (EDA + Dashboard)*
