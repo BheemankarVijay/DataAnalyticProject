@@ -77,7 +77,7 @@ The final interactive visualization dashboard summarizes the EDA insights.
 > 🖼️ You can view it here:  
 > `Netflix-EDA/images/Dashboard.png`
 
-![Netflix Dashboard](Netflix-EDA/images/Dashboard.png)
+![Netflix Dashboard](images/Dashboard.png)
 
 ---
 
