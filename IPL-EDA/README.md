@@ -1,11 +1,24 @@
 # 🏏 IPL Exploratory Data Analysis (2008–2025)
 
-![IPL Banner](Images/Ipl.png) 
+![IPL Banner](Images/Ipl.png)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Cleaning-orange?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-Visualization-green?logo=seaborn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-Charts-blueviolet?logo=plotly&logoColor=white" />
+</p>
+
+---
+
+## 📊 Dashboard Preview
+![IPL Dashboard](Images/Dashboard.png)
 
 ---
 
 ## 📌 Project Overview
-This project explores the **Indian Premier League (IPL)** dataset from **2008–2025** to uncover patterns in:
+This project explores the **Indian Premier League (IPL)** dataset (2008–2025) to uncover patterns in:
 
 - 🏆 **Team performance**  
 - ⭐ **Player contributions**  
@@ -32,37 +45,38 @@ The dataset includes:
 ---
 
 ## 🔍 EDA Process
+
 ### 🛠️ Data Cleaning & Preparation
 - Handled **missing values**  
 - Extracted **Year & Season**  
-- Standardized **team names**  
+- Standardized **team names**
 
 ### 📊 Univariate Analysis
 - Wins per team  
 - MVPs (Player of the Match)  
 - Toss outcomes  
-- Score distributions  
+- Score distributions
 
 ### 🔗 Bivariate Analysis
 - Toss decision vs Match result  
 - Venue vs Win type  
-- Team performance by season  
+- Team performance by season
 
 ### 🗺️ Correlation & Heatmaps
 - Scoring phase contributions  
-- First innings vs Second innings scores  
+- First innings vs Second innings scores
 
 ---
 
-## 📊 Key Insights
+## 📈 Key Insights
 
-### 🏏 Team Performance
-- **Mumbai Indians (MI):** 149 wins in 274 matches → Most successful franchise.  
-- **Chennai Super Kings (CSK):** 141 wins in 249 matches → Highly consistent.  
-- **New Teams:** Rising Pune Supergiant & Gujarat Titans show **impressive win %**.  
-- **Draws/No Results:** 19 matches across all seasons.  
+### 🏆 Team Performance
+- **Mumbai Indians (MI):** 149 wins in 274 matches → Most successful franchise  
+- **Chennai Super Kings (CSK):** 141 wins in 249 matches → Highly consistent  
+- **New Teams:** Gujarat Titans show **impressive win %**  
+- **Draws/No Results:** 19 matches across all seasons  
 
-📌 Example Plot:  
+📊 Example:  
 ![Top Teams Wins](Images/MatchWinner.png)
 
 ---
@@ -71,16 +85,16 @@ The dataset includes:
 - **AB de Villiers** leads **Player of the Match awards**, followed by **Chris Gayle**.  
 - Consistent match-winners shaped their teams’ legacies.  
 
-📌 Example Plot:  
+📊 Example:  
 ![Top Players](Images/PlayerofMatch.png)
 
 ---
 
 ### 🎲 Toss & Match Outcomes
-- Toss winners win **51%** of games → **small advantage**.  
-- **Chasing teams win 53%**, reflecting modern **T20 strategy**.  
+- Toss winners win **51%** of games → small advantage  
+- **Chasing teams win 53%**, reflecting modern T20 strategy  
 
-📌 Example Plot:  
+📊 Example:  
 ![Toss vs Result](Images/TossWinner.png)
 
 ---
@@ -91,70 +105,64 @@ The dataset includes:
 - **Death Overs:** highest variability (40–60 runs peak)  
 - Strong **Powerplay starts (>50)** often → victories  
 
-📌 Example Plot:  
+📊 Example:  
 ![Score Distribution](Images/DistributionofFirstInningsScores.png)
 
 ---
 
 ### 🏟️ Venue Influence
-- **M. Chinnaswamy & Wankhede** host most matches.  
-- Some venues favor **chasing teams**, others defending totals.  
+- **M. Chinnaswamy & Wankhede** host most matches  
+- Some venues favor **chasing teams**, others defending totals  
 
-📌 Example Plot:  
+📊 Example:  
 ![Venue Wins](Images/VenuevsFirstInningsScore.png)
 
 ---
 
-### 📊 Win Margins
-- Most IPL matches are **close contests**.  
-- Wins by **runs** usually have **higher margins** than wins by **wickets**.  
-
-📌 Example Plot:  
-![Win Margin Distribution](Images/MatchWinnervsWinMargin.png)
-
----
-
-### 🔗 Correlation Heatmap
+### 🧩 Correlation Heatmap
 - Strong correlation:  
   - **First Innings vs Second Innings Score (0.67)**  
   - **Powerplay/Middle/Death overs → Total Score**  
 - Negative correlation:  
   - **Win Margin vs Second Innings Score (-0.32)**  
 
-📌 Example Plot:  
+📊 Example:  
 ![Heatmap](Images/heatmap.png)
 
 ---
 
 ## 🎯 Conclusions
-- 🏆 **Mumbai Indians & CSK** are the most consistent franchises.  
-- 🎲 Toss does **not guarantee a win** → skill matters more.  
-- 📈 **Chasing strategy dominates** modern IPL.  
-- 🚀 **Powerplay performance** is crucial in setting match direction.  
-- 🔥 IPL remains highly competitive, with **thrilling close finishes**.  
+- 🏆 **Mumbai Indians & CSK** remain most consistent  
+- 🎲 Toss does **not guarantee victory** → skill dominates  
+- 📈 **Chasing strategy** defines modern IPL  
+- 🚀 **Powerplay performance** drives outcomes  
+- 🔥 IPL = **Data, Drama & Dominance**  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Python 🐍**  
-- **Pandas, NumPy** – Data Wrangling  
-- **Matplotlib, Seaborn** – Visualization  
-- **Jupyter Notebook**  
+| Tool | Purpose |
+|------|----------|
+| 🐍 Python | Programming |
+| 🧮 Pandas, NumPy | Data Wrangling |
+| 📊 Matplotlib, Seaborn | Visualization |
+| 📘 Jupyter Notebook / Google Colab | Analysis Environment |
+| 🧠 Power BI, Tableau | Dashboards & Reporting |
 
 ---
 
-## 📌 Future Scope
-- 🏏 Build a **Win Predictor Model** using ML.  
-- 📊 Create **Power BI / Tableau Dashboards**.  
-- 💰 Extend analysis to **player auctions & salaries**.  
-
-✨ With data, the **IPL becomes more than entertainment** — it’s a story of **numbers, strategy, and legacy**.  
+## 🚀 Future Scope
+- 🧠 Build a **Win Predictor ML Model**  
+- 📈 Expand to **Auction & Salary Analysis**  
+- 🌐 Create interactive dashboards  
 
 ---
 
 ## 👨‍💻 Author
-- **Your Name Here**  
-- 📅 Project Year: 2025  
-- 🔗 [GitHub Profile](https://github.com/BheemankarVijay)  
+**Bheemankar Vijay**  
+📅 *Project Year:* 2025  
+🔗 [GitHub Profile](https://github.com/BheemankarVijay)
 
 ---
+
+⭐ *If you found this project insightful, don’t forget to star the repo!*
